@@ -363,13 +363,13 @@ section .title::after{
     background: #1F8ABA;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 95%;
 }
 .skills-content .right .css::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .right .php::before{
     width: 50%;
@@ -378,10 +378,10 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .angular::before{
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .ionic::before{
-    width: 70%;
+    width: 90%;
 }
 .skills-content .right .phyton::before{
     width: 50%;
