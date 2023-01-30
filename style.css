@@ -386,7 +386,9 @@ section .title::after{
 .skills-content .right .phyton::before{
     width: 50%;
 }
-
+.skills-content .right .node::before{
+     width: 50%;
+}
 /* teams section styling */
 .teams .title::after{
     content: "who with me";
