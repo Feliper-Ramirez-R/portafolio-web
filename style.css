@@ -165,7 +165,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/foto1.jpeg") no-repeat center;
+    /* background: url("images/foto1.jpeg") no-repeat center; */
+    background: black;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -221,7 +222,7 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 500px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -379,6 +380,9 @@ section .title::after{
 }
 .skills-content .right .angular::before{
     width: 90%;
+}
+.skills-content .right .react::before{
+    width: 40%;
 }
 .skills-content .right .ionic::before{
     width: 90%;
@@ -566,7 +570,7 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
+        height: 450px;
         width: 350px;
     }
 }

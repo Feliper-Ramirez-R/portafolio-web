@@ -42,7 +42,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["HTML", "CSS", "JAVASCRIPT", "ANGULAR", "IONIC", "BOOTSTRAP"],
+        strings: ["JAVASCRIPT","TYPESCRIPT", "ANGULAR","REACT","NODEJS", "IONIC", "BOOTSTRAP"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
