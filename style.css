@@ -45,7 +45,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 section .title{
     position: relative;
@@ -270,7 +270,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "projects";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
